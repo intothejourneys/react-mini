@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal.open {
+  display: grid;
+}
+
+.modal.close {
+  display: none;
+}
+
+.modal-mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+
+.modal-contents {
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
